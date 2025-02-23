@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Alarm Clock</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <div class="header">
+    <h1>Set Alarm</h1>
+    <label class="switch">
+      <input type="checkbox" id="themeToggle">
+      <span class="slider round"></span>
+      <img src="images/sun.png" alt="Light Mode" class="icon sun">
+      <img src="images/moon.png" alt="Dark Mode" class="icon moon">
+    </label>
+  </div>
+  <div class="container">
+    <input type="time" id="alarmTime" required>
+    <input type="text" id="alarmName" placeholder="Alarm Name" required>
+    <button id="setAlarm">Set Alarm</button>
+  </div>
+
+  <script src="popup.js"></script>
+</body>
+</html>

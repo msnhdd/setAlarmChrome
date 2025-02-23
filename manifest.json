@@ -1,0 +1,18 @@
+{
+  "manifest_version": 3,
+  "name": "Alarm Clock",
+  "version": "1.0",
+  "description": "Set alarms with names and get notifications at the specified time.",
+  "action": {
+    "default_popup": "popup.html",
+    "default_icon": {
+      "16": "icons/icon16.png",
+      "48": "icons/icon48.png",
+      "128": "icons/icon128.png"
+    }
+  },
+  "permissions": ["alarms", "notifications", "storage"],
+  "background": {
+    "service_worker": "background.js"
+  }
+}
